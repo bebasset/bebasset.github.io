@@ -8,7 +8,7 @@
   <meta name="theme-color" content="#050810" />
 
   <meta property="og:title" content="Belizaire Bassette II — Offensive Security Portfolio" />
-  <meta property="og:description" content="Junior Penetration Tester. 73 vulnerabilities across 5 client engagements. eJPT certified; OSCP & BSCP in progress." />
+  <meta property="og:description" content="Junior Penetration Tester. 170+ vulnerabilities across 18 client engagements. eJPT certified; OSCP & BSCP in progress." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://bebasset.github.io/" />
 
@@ -32,7 +32,7 @@
       </div>
       <div class="boot-line" data-i="0"><span class="tag">[ boot ]</span> initializing secure session…</div>
       <div class="boot-line" data-i="1"><span class="ok">[  ok  ]</span> loading operator profile: <span style="color:var(--accent)">belizaire_bassette</span></div>
-      <div class="boot-line" data-i="2"><span class="ok">[  ok  ]</span> mounting engagement archive [ 73 findings / 5 engagements ]</div>
+      <div class="boot-line" data-i="2"><span class="ok">[  ok  ]</span> mounting engagement archive [ 170+ findings / 18 engagements ]</div>
       <div class="boot-line" data-i="3"><span class="ok">[  ok  ]</span> establishing encrypted channel…</div>
       <div class="boot-grant">&gt;&gt; ACCESS GRANTED<span class="cursor"></span></div>
       <div class="boot-bar"><i id="bootBar"></i></div>
@@ -117,31 +117,36 @@
         <div class="term-body">
           <p style="color:var(--muted)">
             I'm an <strong style="color:var(--text)">offensive security practitioner and Junior Penetration Tester</strong>
-            with hands-on experience running web application and network security assessments inside a
-            <strong style="color:var(--text)">PTaaS consulting environment</strong>. Across 5 client engagements I identified
-            <strong style="color:var(--text)">73 vulnerabilities</strong> — including high-impact IDOR, XSS, and Arbitrary File
-            Upload findings — each documented with proof-of-concept exploits, CVSS ratings, and actionable remediation.
+            with hands-on experience running web application, API, and network security assessments inside a
+            <strong style="color:var(--text)">PTaaS consulting environment</strong>. Across 18 client engagements I identified
+            <strong style="color:var(--text)">170+ vulnerabilities</strong> — including high-impact IDOR/BOLA, broken access control,
+            SSRF, and authentication-bypass findings — each documented with proof-of-concept exploits, CVSS ratings, and actionable remediation.
             I was <strong style="color:var(--text)">promoted from intern to Junior Penetration Tester</strong> on the strength
             of consistent, high-quality findings and professional reporting.
           </p>
 
           <div class="stats">
-            <div class="stat"><div class="n" data-target="73" data-suffix="">0</div><div class="l">Vulnerabilities identified</div></div>
-            <div class="stat"><div class="n" data-target="5" data-suffix="">0</div><div class="l">Client engagements</div></div>
+            <div class="stat"><div class="n" data-target="170" data-text="170+">0</div><div class="l">Vulnerabilities identified</div></div>
+            <div class="stat"><div class="n" data-target="18" data-suffix="">0</div><div class="l">Client engagements</div></div>
             <div class="stat"><div class="n" data-target="1" data-suffix="" data-text="eJPT">0</div><div class="l">Certified (OSCP &amp; BSCP in progress)</div></div>
           </div>
 
           <div class="findings">
-            <div class="findings-title">// findings breakdown — 5 engagements</div>
-            <div class="finding-row"><span class="fname">Info Disclosure</span><span class="finding-track"><i class="finding-fill sev-info" data-w="100"></i></span><span class="fcount">26</span></div>
-            <div class="finding-row"><span class="fname">XSS</span><span class="finding-track"><i class="finding-fill sev-high" data-w="38"></i></span><span class="fcount">10</span></div>
-            <div class="finding-row"><span class="fname">Missing Sec Headers</span><span class="finding-track"><i class="finding-fill sev-med" data-w="35"></i></span><span class="fcount">9</span></div>
-            <div class="finding-row"><span class="fname">IDOR</span><span class="finding-track"><i class="finding-fill sev-crit" data-w="27"></i></span><span class="fcount">7</span></div>
-            <div class="finding-row"><span class="fname">Arbitrary File Upload</span><span class="finding-track"><i class="finding-fill sev-crit" data-w="12"></i></span><span class="fcount">3</span></div>
-            <div class="finding-row"><span class="fname">CSRF</span><span class="finding-track"><i class="finding-fill sev-high" data-w="8"></i></span><span class="fcount">2</span></div>
-            <div class="finding-row"><span class="fname">Mass Assignment</span><span class="finding-track"><i class="finding-fill sev-high" data-w="4"></i></span><span class="fcount">1</span></div>
+            <div class="findings-title">// findings breakdown — 18 engagements (by category)</div>
+            <div class="finding-row"><span class="fname">IDOR / BOLA</span><span class="finding-track"><i class="finding-fill sev-crit" data-w="100"></i></span><span class="fcount">40+</span></div>
+            <div class="finding-row"><span class="fname">Broken Auth / Auth Bypass</span><span class="finding-track"><i class="finding-fill sev-crit" data-w="45"></i></span><span class="fcount">18</span></div>
+            <div class="finding-row"><span class="fname">Info Disclosure</span><span class="finding-track"><i class="finding-fill sev-info" data-w="45"></i></span><span class="fcount">18</span></div>
+            <div class="finding-row"><span class="fname">XSS (Stored/Reflected/DOM)</span><span class="finding-track"><i class="finding-fill sev-high" data-w="38"></i></span><span class="fcount">15</span></div>
+            <div class="finding-row"><span class="fname">User/Account Enumeration</span><span class="finding-track"><i class="finding-fill sev-med" data-w="23"></i></span><span class="fcount">9</span></div>
+            <div class="finding-row"><span class="fname">SSRF</span><span class="finding-track"><i class="finding-fill sev-high" data-w="18"></i></span><span class="fcount">7</span></div>
+            <div class="finding-row"><span class="fname">Missing Sec Headers</span><span class="finding-track"><i class="finding-fill sev-med" data-w="18"></i></span><span class="fcount">7</span></div>
+            <div class="finding-row"><span class="fname">CSRF</span><span class="finding-track"><i class="finding-fill sev-high" data-w="15"></i></span><span class="fcount">6</span></div>
+            <div class="finding-row"><span class="fname">Mass Assignment</span><span class="finding-track"><i class="finding-fill sev-high" data-w="10"></i></span><span class="fcount">4</span></div>
             <p style="font-family:var(--mono);font-size:0.72rem;color:var(--faint);margin-top:0.8rem;">
-              + specialized findings: CSV/XLSX formula injection · insecure password-recovery workflow · username enumeration
+              + specialized findings: SSRF · CORS misconfig · clickjacking · privilege escalation · path traversal · unrestricted file upload · LFI · open redirect · web cache poisoning · CRLF injection · RCE
+            </p>
+            <p style="font-family:var(--mono);font-size:0.72rem;color:var(--muted);margin-top:0.5rem;">
+              report-verified severity (rated subset): <b style="color:var(--text)">3 Critical · 17 High · 20 Medium · 11 Low</b>
             </p>
           </div>
         </div>
@@ -238,10 +243,10 @@
             <div class="exp-org">Maltek Solutions LLC · Remote <span class="sub">· PTaaS consulting</span></div>
             <ul class="exp-list">
               <li><strong>Promoted from Penetration Testing Intern to Junior Penetration Tester</strong> based on engagement performance and the quality of vulnerability findings and client deliverables.</li>
-              <li>Conducted <strong>black-box and gray-box</strong> penetration tests across <strong>5 web application engagements</strong>, identifying <strong>73 total vulnerabilities</strong>.</li>
-              <li>Discovered and validated high-impact findings — <strong>7 IDOR, 10 XSS, 3 Arbitrary File Upload, 2 CSRF, 1 Mass Assignment</strong> — each with documented proof-of-concept exploits demonstrating business impact.</li>
-              <li>Identified <strong>26 Information Disclosure</strong> instances and <strong>9 Missing Security Header</strong> misconfigurations, directly reducing client attack surface.</li>
-              <li>Uncovered specialized issues including <strong>CSV/XLSX formula injection</strong>, insecure password-recovery workflow, and username enumeration — depth across OWASP Top 10 categories.</li>
+              <li>Conducted <strong>black-box and gray-box</strong> penetration tests across <strong>18 web application, API, and network engagements</strong>, identifying <strong>170+ total vulnerabilities</strong>.</li>
+              <li>Discovered and validated high-impact findings across OWASP Top 10 categories — <strong>IDOR/BOLA (40+), broken access control, authentication bypass, SSRF, and sensitive-data exposure</strong> — each with documented proof-of-concept exploits demonstrating business impact.</li>
+              <li>Delivered report-verified findings rated <strong>3 Critical, 17 High, 20 Medium, and 11 Low</strong> severity (CVSS), directly reducing client attack surface.</li>
+              <li>Uncovered specialized issues including <strong>LFI, web cache poisoning, CRLF injection, path traversal, and unrestricted file upload/write</strong> — depth across the OWASP Top 10.</li>
               <li>Delivered professional reports per engagement with <strong>CVSS risk ratings, reproduction steps, and remediation guidance</strong> for client dev and security teams.</li>
             </ul>
           </div>
@@ -288,6 +293,14 @@
           <p class="proj-desc">Enumerated a Windows domain, abused AS-REP Roasting to recover creds, and pivoted to domain compromise via DCSync + Pass-the-Hash.</p>
           <div class="proj-tags"><span class="tag">Kerbrute</span><span class="tag">AS-REP Roasting</span><span class="tag">secretsdump</span></div>
           <div class="proj-foot"><span class="proj-link">↗ view details</span><span class="proj-hint">PDF report</span></div>
+        </article>
+        <article class="proj-card clickable" data-project="xss2shell" tabindex="0" role="button" aria-label="Open details: XSS2Shell CVE-2026-64638">
+          <div class="proj-top"><span class="proj-icon">🕸️</span><span class="proj-badge">XSS → RCE</span></div>
+          <div class="proj-cat">WordPress · Web Exploitation</div>
+          <h3>XSS2Shell — CVE-2026-64638</h3>
+          <p class="proj-desc">Chained a parser-differential HTML injection in WordPress 7.0.2 through DOM clobbering and a SOME attack to steal an admin Application Password, then escalated to full RCE via a malicious plugin upload.</p>
+          <div class="proj-tags"><span class="tag">TryHackMe</span><span class="tag">Parser Differential</span><span class="tag">DOM Clobbering</span><span class="tag">SOME</span></div>
+          <div class="proj-foot"><span class="proj-link">↗ view details</span><span class="proj-hint">PDF writeup</span></div>
         </article>
       </div>
 
@@ -630,6 +643,20 @@
         ],
         pills: ['Active Directory', 'Kerbrute', 'AS-REP Roasting', 'Hashcat', 'SMB', 'secretsdump.py', 'Evil-WinRM'],
         pdf: 'THM+Attacktive+Directory+Writeup1.pdf'
+      },
+      xss2shell: {
+        file: 'xss2shell-cve-2026-64638.md', cat: 'WordPress · Web Exploitation · TryHackMe (CVE-2026-64638)',
+        title: 'XSS2Shell — CVE-2026-64638',
+        desc: 'Exploited a parser-differential HTML injection in the WordPress 7.0.2 failed-login error message — markup that slips past strip_tags() but is accepted by wp_kses_post() — and chained it all the way to Remote Code Execution on the server.',
+        chain: 'fingerprint WP 7.0.2 ' + A + ' parser-differential HTMLi (wp-login.php) ' + A + ' DOM clobbering ' + A + ' JSONP REST reflection ' + A + ' SOME click ' + A + ' Application Password theft ' + A + ' REST page publish ' + A + ' plugin upload ' + A + ' web shell ' + A + ' RCE',
+        bullets: [
+          'Identified a parser disagreement between strip_tags() and wp_kses_post() that lets "&lt; tag" markup survive sanitization',
+          'Weaponized DOM clobbering plus a Same-Origin Method Execution (SOME) click to mint and steal a victim admin Application Password',
+          'Used the stolen credential server-side (bypassing REST CORS) to publish a malicious page and upload a plugin',
+          'Reached the uploaded web shell for full RCE as www-data and read the protected flag'
+        ],
+        pills: ['WordPress 7.0.2', 'Parser Differential', 'DOM Clobbering', 'SOME', 'JSONP', 'Application Passwords', 'RCE'],
+        pdf: 'XSS2Shell-CVE-2026-64638-Writeup.pdf'
       },
       pfsense: {
         file: 'pfsense-pentest.md', cat: 'Firewall · Enterprise Network · IST 323',
